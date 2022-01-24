@@ -37,19 +37,15 @@ function __main_0_() {
         
         if (localStorage.getItem("__pro__") == null) {
             
-            localStorage.setItem("__pro__","okkk");
-            
-            localStorage.setItem("__tea_cache_tokens_220025","{\"web_id\":\"7043057056530908680\",\"ssid\":\"31204e6d-0dd3-474d-a2af-7da1b959ff7f\",\"user_unique_id\":\"61bdf686e8b5ec2cf6db3a5b\",\"timestamp\":1640429770741}");
-
-            localStorage.setItem("__tea_sdk_ab_version_220025","{\"ab_version\":[],\"ab_ext_version\":[],\"ab_version_multilink\":[],\"data\":{\"test_1_2_2\":{\"val\":\"keep_story\",\"vid\":\"29062\"}},\"timestamp\":1643025563740}");
-
-            localStorage.setItem("cy_dream_drar_mode","{\"theme\":true,\"follow\":false}");
-
-            localStorage.setItem("cy_dream_user","{\"uid\":\"61bdf686e8b5ec2cf6db3a5b\"}");
-
-            localStorage.setItem("dream_click_ai_flag","{\"flag\":true}");
-
-            localStorage.setItem("dream_tips_flag","{\"flag\":\"close\"}");
+localStorage.setItem("__pro__","okkk")
+localStorage.setItem("__tea_cache_first_220025","1")
+localStorage.setItem("__tea_cache_tokens_220025","{\"web_id\":\"7043057056530908680\",\"ssid\":\"31204e6d-0dd3-474d-a2af-7da1b959ff7f\",\"user_unique_id\":\"61bdf686e8b5ec2cf6db3a5b\",\"timestamp\":1640429770741}")
+localStorage.setItem("__tea_sdk_ab_version_220025","{\"ab_version\":[],\"ab_ext_version\":[],\"ab_version_multilink\":[],\"data\":{\"test_1_2_2\":{\"val\":\"keep_story\",\"vid\":\"29062\"}},\"timestamp\":1643029203178}"
+localStorage.setItem("_grecaptcha","09AGh639WfXW8MZev2HQgemnu9HYunNRABHuG1Z61nkIhG3BmWQNX52OJ8CbmUmVBegND--0JU03WwSJFWW-HKEKo")
+localStorage.setItem("cy_dream_drar_mode","{\"theme\":false,\"follow\":false}")
+localStorage.setItem("cy_dream_user","{\"uid\":\"61eea396c665fbd8d592c818\"}")
+localStorage.setItem("dream_click_ai_flag","{\"flag\":true}")
+localStorage.setItem("dream_tips_flag","{\"flag\":\"close\"}"
             
             location.reload();
 
