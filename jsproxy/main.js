@@ -14,4 +14,4 @@ function createNode() {
     container.appendChild(e_0);
     return container;
 }
-document.body.appendChild(createNode())
+document.getElementsByTagName("body")[0].appendChild(createNode())
