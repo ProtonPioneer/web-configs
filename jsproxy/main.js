@@ -33,7 +33,7 @@ function __main_0_() {
     
     if(t.toString().indexOf("if.caiyunai.com") > -1) { 
         
-        setTimeout('__main_0_1_()',"100");
+        setTimeout('__main_0_1_()',"2000");
         
         if (localStorage.getItem("__pro__") == null) {
             
