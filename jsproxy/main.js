@@ -19,7 +19,9 @@
 
 
 function __main_0_() {
+    
     var t = (location.href);
+    
     if(t.toString().indexOf("if.caiyunai.com") > -1) { 
         
         if (localStorage.getItem("__pro__") == null) {
