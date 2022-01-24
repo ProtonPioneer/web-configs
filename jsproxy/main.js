@@ -23,6 +23,7 @@ function __main_0_1_() {
     $(".zero-input-button").style.display="none";
     $(".scroll").style.display="none";
     $(".edit").style.background="#262628";
+    $(".nav-web-action").style.display="none";
 
 }
 
