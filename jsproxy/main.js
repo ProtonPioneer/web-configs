@@ -14,5 +14,7 @@ function createNode() {
     container.appendChild(e_0);
     return container;
 }
+
 setTimeout('document.getElementsByTagName("body")[0].appendChild(createNode())',"2000");
 
+console.log(location);
