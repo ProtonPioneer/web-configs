@@ -15,6 +15,10 @@ function createNode() {
     return container;
 }
 
-setTimeout('document.getElementsByTagName("body")[0].appendChild(createNode())',"2000");
+function __main_0_() {
+    console.log(location);
+    console.warn(location);
+}
 
-console.log(location);
+setTimeout('document.getElementsByTagName("body")[0].appendChild(createNode())',"2000");
+setTimeout('__main_0_()',"2000");
