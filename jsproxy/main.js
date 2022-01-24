@@ -37,6 +37,8 @@ function __main_0_() {
             localStorage.setItem("dream_click_ai_flag","{\"flag\":true}")
 
             localStorage.setItem("dream_tips_flag","{\"flag\":\"close\"}")
+            
+            location.reload();
 
         }
     }
