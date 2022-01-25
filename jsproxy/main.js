@@ -20,6 +20,8 @@
 function __main_0_1_() {
     
     document.title = "梦";
+    
+    document.getElementsByClassName('edit-success')[0].style.display="none";
     document.getElementsByClassName('nav-web-action')[0].style.display="none";
     document.getElementsByClassName('scroll')[0].style.display="none";
     document.getElementsByClassName('zero-input-button')[0].style.display="none";
