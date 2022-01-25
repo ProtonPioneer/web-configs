@@ -17,6 +17,8 @@
 
 //setTimeout('document.getElementsByTagName("body")[0].appendChild(createNode())',"2000");
 
+var __inited = true
+
 function __main_0_1_() {
     
     document.title = "梦";
