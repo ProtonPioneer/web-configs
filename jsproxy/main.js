@@ -23,11 +23,11 @@ function __main_0_1_() {
     
     document.title = "梦";
     
-    document.getElementsByClassName('edit-success')[0].style.display="none";
-    document.getElementsByClassName('nav-web-action')[0].style.display="none";
-    document.getElementsByClassName('scroll')[0].style.display="none";
-    document.getElementsByClassName('zero-input-button')[0].style.display="none";
-    document.getElementsByClassName('edit-model')[0].style.background="#fbfaf9";
+    try { document.getElementsByClassName('edit-success')[0].style.display="none";  } catch {233}
+    try { document.getElementsByClassName('nav-web-action')[0].style.display="none";} catch {233}
+    try { document.getElementsByClassName('scroll')[0].style.display="none";} catch {233}
+    try { document.getElementsByClassName('zero-input-button')[0].style.display="none";} catch {233}
+    try { document.getElementsByClassName('edit-model')[0].style.background="#fbfaf9";} catch {233}
     /*
     $(".zero-input-button").style.display="none";
     $(".scroll").style.display="none";
