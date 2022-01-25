@@ -42,7 +42,7 @@ function __main_caiyun_1_() {
 
 function __main_caiyun_0_() {
     
-    setInterval('__main_caiyun_1_()',"1000");
+    setInterval('__main_caiyun_1_()',"100");
         
     if (localStorage.getItem("__pro__") == null) {
             
