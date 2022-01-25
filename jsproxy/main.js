@@ -19,7 +19,7 @@
 
 var __inited = true
 
-function __main_0_1_() {
+function __main_caiyun_1_() {
     
     document.title = "梦";
     
@@ -36,15 +36,11 @@ function __main_0_1_() {
 
 }
 
-function __main_0_() {
+function __main_caiyun_0_() {
     
-    var t = (location.href);
-    
-    if(t.toString().indexOf("if.caiyunai.com") > -1) { 
+    setInterval('__main_caiyun_1_()',"2000");
         
-        setInterval('__main_0_1_()',"2000");
-        
-        if (localStorage.getItem("__pro__") == null) {
+    if (localStorage.getItem("__pro__") == null) {
             
 localStorage.setItem("__pro__","okkk");
 localStorage.setItem("__tea_cache_first_220025","1");
@@ -58,8 +54,15 @@ localStorage.setItem("dream_tips_flag","{\"flag\":\"close\"}");
             
             location.reload();
 
-        }
+}
+
+function __main_0_() {
+    var t = (location.href);
+    if(t.toString().indexOf("if.caiyunai.com") > -1) {__main_caiyun_0_();}
     }
 }
 
 setTimeout('__main_0_()',"200");
+
+
+
