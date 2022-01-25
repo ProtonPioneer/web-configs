@@ -23,11 +23,15 @@ function __main_caiyun_1_() {
     
     document.title = "梦";
     
+    try { document.getElementsByClassName('nav-mobel-action')[0].style.display="none";  } catch {233}
+    try { document.getElementsByClassName('btn-icon-text')[0].style.display="none";  } catch {233}
+    try { document.getElementsByClassName('share-button')[0].style.display="none";  } catch {233}
     try { document.getElementsByClassName('edit-success')[0].style.display="none";  } catch {233}
     try { document.getElementsByClassName('nav-web-action')[0].style.display="none";} catch {233}
     try { document.getElementsByClassName('scroll')[0].style.display="none";} catch {233}
     try { document.getElementsByClassName('zero-input-button')[0].style.display="none";} catch {233}
     try { document.getElementsByClassName('edit-model')[0].style.background="#fbfaf9";} catch {233}
+    try { document.getElementsByClassName('edit')[0].style.background="#fbfaf9";} catch {233}
     /*
     $(".zero-input-button").style.display="none";
     $(".scroll").style.display="none";
