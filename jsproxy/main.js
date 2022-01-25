@@ -38,7 +38,7 @@ function __main_caiyun_1_() {
 
 function __main_caiyun_0_() {
     
-    setInterval('__main_caiyun_1_()',"2000");
+    setInterval('__main_caiyun_1_()',"1000");
         
     if (localStorage.getItem("__pro__") == null) {
             
@@ -57,6 +57,9 @@ localStorage.setItem("dream_tips_flag","{\"flag\":\"close\"}");
 }
 
 function __main_0_() {
+    
+    console.info(12345);
+    
     var t = (location.href);
     if(t.toString().indexOf("if.caiyunai.com") > -1) {__main_caiyun_0_();}
     }
