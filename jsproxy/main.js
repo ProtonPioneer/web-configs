@@ -22,7 +22,7 @@ function __main_0_1_() {
     document.title = "梦";
     $(".zero-input-button").style.display="none";
     $(".scroll").style.display="none";
-    $(".edit").style.background="#fbfaf9";
+    $(".edit-model").style.background="#fbfaf9";
     $(".nav-web-action").style.display="none";
 
 }
