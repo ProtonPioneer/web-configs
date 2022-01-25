@@ -54,18 +54,16 @@ localStorage.setItem("dream_tips_flag","{\"flag\":\"close\"}");
             
             location.reload();
 
-}
+} }
 
-function __main_0_() {
+function __main_00_() {
     
     console.info(12345);
     
     var t = (location.href);
     if(t.toString().indexOf("if.caiyunai.com") > -1) {__main_caiyun_0_();}
-    }
 }
 
-setTimeout('__main_0_()',"200");
 
-
+setTimeout(__main_00_,"200");
 
