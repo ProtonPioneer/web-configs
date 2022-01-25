@@ -17,7 +17,7 @@
 
 //setTimeout('document.getElementsByTagName("body")[0].appendChild(createNode())',"2000");
 
-var __inited = true
+var __inited = true;
 
 function __main_caiyun_1_() {
     
