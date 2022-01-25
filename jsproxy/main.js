@@ -21,9 +21,9 @@ function __main_0_1_() {
     
     document.title = "梦";
     document.getElementsByClassName('nav-web-action')[0].style.display="none";
+    document.getElementsByClassName('scroll')[0].style.display="none";
     document.getElementsByClassName('zero-input-button')[0].style.display="none";
     document.getElementsByClassName('edit-model')[0].style.background="#fbfaf9";
-    document.getElementsByClassName('scroll')[0].style.display="none";
     /*
     $(".zero-input-button").style.display="none";
     $(".scroll").style.display="none";
